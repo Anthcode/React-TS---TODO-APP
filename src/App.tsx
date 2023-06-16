@@ -1,11 +1,16 @@
 import * as React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Login from './components/Login';
 import './style.css';
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className="app">
+      <Routes>
+        <Route path="/" element={<Login />}>
+          <Route index element={<Login />} />
+        </Route>
+      </Routes>
     </div>
   );
 }
