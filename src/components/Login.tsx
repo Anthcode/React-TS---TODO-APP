@@ -2,10 +2,14 @@ import React from 'react';
 export default function Login() {
   return (
     <div className="login">
-      Login
+      <h1>Please Login</h1>
       <form>
-        <input type="text" />
-        <input type="password" />
+        <label>e-mail</label>
+        <input type="text" name="email" placeholder="e-mail" />
+
+        <label> passwd </label>
+        <input type="password" name="passwd" placeholder="password" />
+
         <button>Login</button>
       </form>
     </div>
