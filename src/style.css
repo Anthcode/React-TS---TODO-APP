@@ -26,7 +26,7 @@ body {
 }
 
 .app {
-  background: rgb(232, 236, 232);
+  background: rgba(255, 255, 255, 0.8);
   width: 80vw;
   height: 80vh;
   border-radius: 4px;
@@ -39,17 +39,22 @@ body {
 }
 
 form {
+  background: rgba(209, 207, 207, 0.8);
+  width: 250px;
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 14px;
   padding: 14px;
   border: 1px solid darkgrey;
   border-radius: 4px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 input {
-  margin: 10px 12px;
-  padding: px 2px;
+  margin: 10px 8px;
+  padding: 2px 5px;
+  border-radius: 4px;
+  border: none;
+  font-size: small;
 }
 button {
   width: 50px;
