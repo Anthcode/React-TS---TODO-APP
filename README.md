@@ -1,3 +1,3 @@
 # React-TS---TODO-APP
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/stackblitz-starters-tjnyov)
+TODO app with TypeScript, AUTH, React-Router and Redux
